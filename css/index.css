@@ -1,0 +1,29 @@
+
+header
+{
+    background-image: url("../img/index.jpg");
+     background-color: black; 
+    height: 100%;
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static; 
+  }
+  
+  .mainnav {
+      float: right;
+      list-style: none;
+      margin-top: 30px;
+  }
+
+  .mainnav li {
+      display: inline-block;
+  }
+
+  .mainnav li a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 20px;
+      font-family: "Roboto" , sans-serif;
+      font-size: 15px;
+  }
