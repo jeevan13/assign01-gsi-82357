@@ -1,13 +1,15 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 header
 {
-    background-image: url("../img/index.jpg");
-     background-color: black; 
-    height: 100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url("../img/index.jpg");
+    height: 100vh;
     background-position:center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: static; 
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;
+    position: static;  */ */
   }
   
   .mainnav {
@@ -21,7 +23,7 @@ header
   }
 
   .mainnav li a {
-      color: white;
+      color: white; 
       text-decoration: none;
       padding: 5px 20px;
       font-family: "Roboto" , sans-serif;
