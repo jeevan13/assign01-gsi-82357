@@ -1,0 +1,46 @@
+.mainnav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.mainnav li {
+    display: inline-block;
+}
+
+.mainnav li a {
+    color: black; 
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace , sans-serif;
+    font-size: 30px;
+}
+
+.mainnav li.active a 
+{
+  border: 1px solid white;
+  background-color: lightpink;
+}
+
+.mainnav li a:hover
+{
+    border: 1px solid white;
+    background-color: lightpink;
+}
+
+.button {
+    position: relative;
+    top:300px;
+    left: 750px;
+    background-color: lightpink;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 40px;
+    /* margin: 4px 2px; */
+    /* opacity: 1; */
+    /* transition: 0.3s; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .button:hover {opacity: 0.6};
