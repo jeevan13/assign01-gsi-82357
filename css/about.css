@@ -1,0 +1,71 @@
+
+/* Navigation */
+.mainnav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.mainnav li {
+    display: inline-block;
+}
+
+.mainnav li a {
+    color: white; 
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace , sans-serif;
+    font-size: 30px;
+}
+
+.mainnav li.active a 
+{
+  border: 1px solid white;
+  background-color: maroon;
+}
+
+.mainnav li a:hover
+{
+    border: 1px solid white;
+    background-color: maroon;
+}
+
+.mainnav{
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Button style */
+
+.button {
+    font: 'Georgia';
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    padding: 1px 9px 5px 6px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 0.5px solid whitesmoke;
+    border-bottom: 0.5px solid whitesmoke;
+    border-left: 0.5px solid whitesmoke;
+  }
+
+  #column1 {
+    position: relative;
+    top: 200px;
+    width:80%;
+    left: 180px; 
+    border: 3px solid black;
+    height: 500px;
+  }
+img {
+    border-radius: 100%;
+    float: right;
+    width: 500px;
+    padding: 5px;
+  }
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:50px;
+    text-align: center;
+
+}
