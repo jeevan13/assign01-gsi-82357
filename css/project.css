@@ -1,0 +1,35 @@
+.mainnav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.mainnav li {
+    display: inline-block;
+}
+
+.mainnav li a {
+    color: black; 
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace , sans-serif;
+    font-size: 30px;
+}
+
+.mainnav li.active a 
+{
+  border: 1px solid white;
+  background-color: lightslategrey;
+}
+
+.mainnav li a:hover
+{
+    border: 1px solid white;
+    background-color: lightslategray;
+}
+
+  h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding:70px;
+    text-align: center;}
