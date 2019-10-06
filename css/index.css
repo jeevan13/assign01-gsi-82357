@@ -1,15 +1,14 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
 }
 header
 {
-    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url("../img/index.jpg");
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("../img/index.jpg");
+    height: 935px;
     background-position:center; 
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;
-    position: static;  */ */
+    background-size: cover;
   }
   
   .mainnav {
@@ -26,6 +25,58 @@ header
       color: white; 
       text-decoration: none;
       padding: 5px 20px;
-      font-family: "Roboto" , sans-serif;
-      font-size: 15px;
+      font-family: monospace , sans-serif;
+      font-size: 30px;
   }
+
+  .mainnav li.active a 
+  {
+    border: 1px solid white;
+    background-color: maroon;
+  }
+
+  .mainnav li a:hover
+  {
+      border: 1px solid white;
+      background-color: maroon;
+  }
+
+  .mainnav{
+      background-color: rgba(0,0,0,0.4);
+  }
+
+
+
+
+body{
+	height:100hv;
+	background: #EDEEE9;
+	margin:0;
+}
+
+.site__main {
+	padding : 100px;
+	overflow:hidden;
+	margin: 0px auto;
+	width: 50vw;
+	font-weight: 600;
+	line-height: 1.1;
+	font-size: 70px;
+	text-align: left;
+	font-size: 3rem;
+	color: #EDEEE9;
+	font-family: 'Georgia';
+}
+
+.button {
+    font: 'Georgia';
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    padding: 1px 9px 5px 6px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 0.5px solid whitesmoke;
+    border-bottom: 0.5px solid whitesmoke;
+    border-left: 0.5px solid whitesmoke;
+  }
+
