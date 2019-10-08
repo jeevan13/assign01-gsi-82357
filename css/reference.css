@@ -19,7 +19,7 @@
 .mainnav li.active a 
 {
   border: 1px solid white;
-  background-color: lightsalmon;
+  background-color: lightsteelblue;
   margin: 4px 2px; 
   opacity: 2; 
   transition: 2s;
@@ -28,7 +28,7 @@
 .mainnav li a:hover
 {
     border: 1px solid white;
-    background-color: lightsalmon;
+    background-color: lightsteelblue;
 }
 
   h1 {
@@ -40,4 +40,39 @@
     opacity: 2; 
     transition: 2s;
 
+}
+
+#reference {
+    position: relative;
+    width: 50%;
+    height:50%;
+    left: 20%;
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightyellow;
+    text-align: center;
+
+}
+
+img {
+    width: 300px;
+    padding:4%
+}
+
+#reference2 {
+    position: relative;
+    width: 50%;
+    height:100%;
+    left: 20%;
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightyellow;
+    text-align: center;
+
+}
+
+#footer {
+    position: absolute;
+    width: 1%;
+    left: 20%;
 }

@@ -71,7 +71,7 @@ input[type=text], select {
 #form {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    top:200px;
+    top:80px;
     left: 550px;
     width: 15%;
     border-radius: 5px;
@@ -81,6 +81,7 @@ input[type=text], select {
   .para { 
     position: relative;
     float:right;
+    top: 100px;
     
     
     }
@@ -91,6 +92,7 @@ input[type=text], select {
         padding:10px;
         text-align: center;
         position: absolute;
+        top:50%;
         left: 55%;
         top:25%
     }
