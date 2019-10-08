@@ -19,7 +19,7 @@
 .mainnav li.active a 
 {
   border: 1px solid white;
-  background-color: lightpink;
+  background-color: lightseagreen;
   margin: 4px 2px; 
   opacity: 2; 
   transition: 2s;
@@ -28,7 +28,7 @@
 .mainnav li a:hover
 {
     border: 1px solid white;
-    background-color: lightpink;
+    background-color: lightseagreen;
 }
 
   h1 {
@@ -48,14 +48,14 @@ input[type=text], select {
     margin: 9px 0;
     display: inline-block;
     box-sizing: content-box;
-    border: 1px solid lightpink;
+    border: 1px solid lightseagreen;
     border-radius: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   button {
     width: 50%;
-    background-color: lightpink;
+    background-color: lightseagreen;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

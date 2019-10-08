@@ -1,0 +1,39 @@
+#header {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 800px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#leftColumn {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    height: 380px;
+    width: 375px;
+    background-color: lightsalmon;
+}
+
+#rightColumn {
+    position: absolute;
+    top: 180px;
+    left: 525px;
+    height: 380px;
+    width: 375px;
+    background-color: lightgoldenrodyellow
+}
+
+.container {
+    padding: 5px;
+}
+
+#references {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    height: 100px;
+    width: 800px;
+    background-color: pink;
+}
